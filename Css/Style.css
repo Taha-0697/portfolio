@@ -447,7 +447,7 @@ button {
         flex-wrap: wrap;
         padding: 80px 40px;
     }
-    
+
     .menu {
         position: fixed;
         top: 12px;
@@ -511,6 +511,31 @@ button {
 
 }
 
+@media (max-width: 450px) {
+    body {
+        padding: 30px 16px;
+    }
+
+    .profile,
+    .main {
+        min-width: unset;
+        width: 100%;
+        margin: 12px;
+    }
+
+    .split .asset-body {
+        grid-template-columns: 1fr;
+    }
+
+    .section-item .domain-item {
+        margin-bottom: 16px;
+    }
+
+    .asset-body.grid {
+        justify-content: center;
+    }
+
+}
 
 /* ---   Scrollbar styling --- */
 
