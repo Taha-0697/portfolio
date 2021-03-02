@@ -513,7 +513,7 @@ button {
 
 @media (max-width: 450px) {
     body {
-        padding: 30px 16px;
+        padding: 20px 8px;
     }
 
     .profile,
