@@ -513,7 +513,7 @@ button {
 
 @media only screen and (max-width: 380px) {
     body {
-        padding: 20px 8px;
+        padding: 20px 0px;
     }
     .profile,
     .main {
