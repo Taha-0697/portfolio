@@ -511,7 +511,7 @@ button {
 
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
     body {
         padding: 20px 8px;
     }
