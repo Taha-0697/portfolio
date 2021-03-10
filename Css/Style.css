@@ -514,11 +514,12 @@ button {
 @media only screen and (max-width: 360px) {
     body {
         padding: 20px 0px;
+        width: 100%;
     }
     .profile,
     .main {
         min-width: unset;
-        width: 70%;
+        width: 100%;
         margin: 8px;
     }
     .img-container{
