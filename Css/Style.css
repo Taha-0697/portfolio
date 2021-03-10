@@ -516,6 +516,10 @@ button {
         padding: 20px 0px;
         width: 100%;
     }
+    .menu{
+        width: 100px;
+        margin-left: 2px;
+    }
     .profile,
     .main {
         min-width: unset;
