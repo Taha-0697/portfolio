@@ -519,7 +519,7 @@ button {
     .main {
         min-width: unset;
         width: 100%;
-        margin: 12px;
+        margin: 8px;
     }
     .img-container{
         max-width: 100%;
@@ -531,7 +531,7 @@ button {
     }
 
     .section-item .domain-item {
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
 
     .asset-body.grid {
