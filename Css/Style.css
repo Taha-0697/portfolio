@@ -518,6 +518,7 @@ button {
     .profile,
     .main {
         min-width: unset;
+        height: auto;
         width: 100%;
         margin: 12px;
     }
