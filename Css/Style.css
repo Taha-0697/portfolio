@@ -511,7 +511,7 @@ button {
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 320px) {
     body {
         padding: 20px 8px;
     }
