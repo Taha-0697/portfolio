@@ -517,7 +517,7 @@ button {
         width: 100%;
     }
     
-    .menu-item{
+    .menu{
         display: flex;
         flex-shrink: initial;
     }
