@@ -531,7 +531,9 @@ button {
         max-width: 100%;
         min-height: 450px;
     }
-
+    .image-set{
+        flex-wrap: wrap;
+    }
     .split .asset-body {
         grid-template-columns: 1fr;
     }
