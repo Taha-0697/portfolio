@@ -519,7 +519,7 @@ button {
     
     .menu{
         display: flex;
-        flex-shrink: initial;
+        flex-wrap: wrap;
     }
     .profile,
     .main {
