@@ -517,6 +517,10 @@ button {
         width: 100%;
     }
     
+    .menu-item{
+        display: flex;
+        flex-shrink: initial;
+    }
     .profile,
     .main {
         min-width: unset;
