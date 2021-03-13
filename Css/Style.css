@@ -517,6 +517,9 @@ button {
         width: 100%;
     }
     
+    .section-item{
+        margin-top: 20px;
+    }
     .menu{
         display: flex;
         flex-wrap: wrap;
