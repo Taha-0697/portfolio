@@ -35,7 +35,6 @@ body {
 
 .menu {
     background-color: #fff;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,6 +57,11 @@ body {
     cursor: pointer;
 }
 
+.menu-item:last-child{
+    border-bottom: none;
+
+}
+
 .menu-item i {
     font-size: 1.2em;
     margin-bottom: 8px;
@@ -75,7 +79,7 @@ body {
 
 .img-container {
     position: relative;
-    background: url(..//Images/pp.jpg) no-repeat;
+    background: url(..//Images/Taha_new.jpg) no-repeat;
     background-size: cover;
     min-height: 480px;
     background-position: 0 0;
@@ -90,8 +94,8 @@ body {
     max-height: 90vh;
     min-width: 420px;
     border-radius: 4px;
-    margin-left: 12px;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15);
+    /* margin-left: 12px; */
+    /* box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15); */
 }
 
 .profile-body {
@@ -151,7 +155,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(81, 164, 161, 0.4);
+    /* background-color: rgba(81, 164, 161, 0.4); */
     transform: translate(-20px, -20px);
     border-radius: 4px;
 }
@@ -191,7 +195,7 @@ button {
     padding-left: 32px;
 }
 
-.asset-body {
+.asset-body , .asset-body-2 {
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 28px;
@@ -200,7 +204,7 @@ button {
 
 .split .asset-body {
     display: grid;
-    grid-template-columns: 1fr 1.25fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -487,14 +491,33 @@ button {
 
 @media only screen and  (max-width: 650px) {
     body {
-        padding: 80px 16px;
+        padding: 25px 16px;
+
     }
+
+.image-set{
+    padding: 1rem;
+   border:none
+}
 
     .profile,
     .main {
         min-width: unset;
         width: 100%;
-        margin: 12px;
+        margin: 0 12px;
+        overflow: hidden;
+    }
+    .resume button{
+        font-size:1rem;
+    }
+    .profile{
+        max-height: 70vh;
+    }
+    .profile::before{
+        background-color: unset;
+    }
+    .actions{
+display: none;
     }
 
     .split .asset-body {
@@ -511,7 +534,14 @@ button {
 
 }
 
+@media (max-width:507px) {
+    .menu{
+        display: none;
+    }
+}
 @media only screen and (max-width: 250px) {
+
+    
     body {
         padding: 20px 0px;
         width: 100%;
